@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Aroma&Mente - Velas artesanales de lujo hechas a mano en Barcelona. Cera de soja, diseño elegante y experiencia sensorial única." />
+  <title>Aroma&Mente | Velas artesanales de lujo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="favicon.ico" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #fefefc;
+      color: #3b3b3b;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #fff;
+      padding: 3rem 1rem;
+      text-align: center;
+      border-bottom: 1px solid #e8e6e1;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      color: #4b3d33;
+      margin: 0;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      margin: 0 1.5rem;
+      text-decoration: none;
+      color: #7a6654;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #b08b6e;
+    }
+    .hero {
+      background: url('img/vela.png') center/cover no-repeat;
+      height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+      text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6);
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      max-width: 90%;
+    }
+    .section {
+      padding: 5rem 1.5rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .section h2 {
+      text-align: center;
+      font-size: 2rem;
+      color: #4b3d33;
+      margin-bottom: 3rem;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2.5rem;
+      justify-content: center;
+    }
+    .product {
+      max-width: 300px;
+      background: #ffffff;
+      border-radius: 8px;
+      border: 1px solid #efefef;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+    .product:hover {
+      transform: translateY(-5px);
+    }
+    .product img {
+      width: 100%;
+      display: block;
+    }
+    .product h3 {
+      margin: 1rem;
+      font-size: 1.3rem;
+      color: #40342d;
+    }
+    .product p {
+      margin: 0 1rem 1.5rem;
+      font-size: 1rem;
+      color: #5a5a5a;
+    }
+    .about,
+    .contact {
+      text-align: center;
+      max-width: 800px;
+      margin: auto;
+      font-size: 1.1rem;
+      color: #4d4d4d;
+    }
+    footer {
+      background-color: #f9f6f2;
+      padding: 2rem 1rem;
+      text-align: center;
+      font-size: 0.95rem;
+      color: #7a6654;
+      border-top: 1px solid #e8e6e1;
+    }
+    footer a {
+      color: #7a6654;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 768px) {
+      .hero h2 {
+        font-size: 2rem;
+      }
+      nav a {
+        margin: 0 1rem;
+      }
+      .products {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Aroma&Mente</h1>
+    <nav>
+      <a href="#productos">Colección</a>
+      <a href="#nosotros">Filosofía</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+  <div class="hero">
+    <h2>Experiencias sensoriales únicas a través de velas artesanales de lujo</h2>
+  </div>
+  <section id="productos" class="section">
+    <h2>Colección Aroma&Mente 2025</h2>
+    <div class="products">
+      <div class="product">
+        <img src="img/vela1.png" alt="Vela Lavanda Zen" />
+        <h3>Lavanda Zen</h3>
+        <p>Relajación total con esencia de lavanda 100% natural. Envasada en microcemento artesanal, ideal para ambientes de calma.</p>
+      </div>
+      <div class="product">
+        <img src="img/vela2.png" alt="Vela Vainilla Mente" />
+        <h3>Vainilla Mente</h3>
+        <p>Aroma cálido y envolvente para acompañar tus momentos de introspección. Diseñada con elegancia y sostenibilidad.</p>
+      </div>
+    </div>
+  </section>
+  <section id="nosotros" class="section">
+    <h2>Nuestra Filosofía</h2>
+    <p class="about">
+      En <strong>Aroma&Mente</strong> fusionamos el diseño contemporáneo con el bienestar holístico. Cada vela es una pieza única elaborada a mano en Barcelona, utilizando únicamente cera de soja ecológica, mechas de algodón y envases de microcemento reciclable. Nuestro compromiso es crear experiencias olfativas que conecten contigo y tu entorno.
+    </p>
+  </section>
+  <section id="contacto" class="section">
+    <h2>Contacto</h2>
+    <p class="contact">
+      ¿Te interesa una colaboración, una línea personalizada o tienes alguna consulta? Estamos aquí para ayudarte. Escribe a <a href="mailto:info@aromaymente.com">info@aromaymente.com</a> o visita nuestras redes sociales para conocer más sobre nuestras creaciones.
+    </p>
+  </section>
+  <footer>
+    <p>&copy; 2025 Aroma&Mente · Velas artesanales de lujo · <a href="https://www.aromaymente.com">www.aromaymente.com</a></p>
+  </footer>
+</body>
+</html>
